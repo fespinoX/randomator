@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Prueba de Randomator</title>        
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="jquery.randomator.js"></script>
+		<link rel="stylesheet" href="estilito.css" />
+    </head>
+    <body>
+       <div id="contenedorsito">
+        
+        <h1>¿Quién va a abrirle al del delivery?</h1>
+        
+        <ul id="listita">
+            <li><input type="text" class="opcion" value="opción 1"></li>
+            <li><input type="text" class="opcion" value="opción 2"></li>
+            <li><input type="text" class="opcion" value="opción 3"></li>
+            <li><input type="text" class="opcion" value="opción 4"></li>
+            <li><input type="text" class="opcion" value="opción 5"></li>
+       </ul>
+       
+       <button id="randomChampion">RANDOM CHAMPION</button>
+       
+       <div id="portaganador">
+           
+           <p id="ganador"></p>
+           
+       </div>
+       
+       
+        <script>
+            
+            $( "input" ).randomator({
+            });
+            
+            //Se puede agregar cualquier cantidad de inputs con la clase "opcion" y el plug in los incluye en el randomizador.
+            
+        </script>
+        </div>
+    </body>
+</html>
+
