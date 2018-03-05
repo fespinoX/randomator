@@ -1,27 +1,51 @@
+/* 
+
+
+COLORES
+
+CELESTE
+color: #ADDFEA;
+
+QUESO
+color: #FDE8A3;
+
+TOMATE
+color: #A51B11;
+
+ACEITUNA
+color: #71C063;
+
+FUENTES
+
+font-family: 'cheese_pizzacheese_pizza';
+
+
+*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'cheese_pizzacheese_pizza';
     text-align: center;
 }
 
 body{
-    background-color: #ff9d00;
+    background-image: url(cositas/pizza.png);
 }
 
 #contenedorsito{
-    width: 80%;
-    height: 100vh;
-    margin: auto;
-    padding-top: 50px;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #FDE8A3;
 }
 
 h1{
-    color: white;
-    padding: 30px 0;
-    font-variant: small-caps;
-    font-size: 3em;
+    padding: 20px 0;
+    font-weight: 800;
+    font-size: 4em;
+    color: #A51B11;
+    /*text-shadow: 0px 4px 0px rgba(0, 0, 0, 1);*/
 }
 
 #listita{
@@ -33,19 +57,20 @@ h1{
 }
 
 #listita li input{
-    background-color: tomato;
+    padding-bottom: 5px;
+    background-color: #ADDFEA;
     font-size: 3em;
-    color: white;
+    color: black;
     border: none;
-    font-variant: small-caps;
 }
 
 #randomChampion{
-    background-color: yellow;
-    color: tomato;
+    background-color: #71C063;
+    color: #fff;
     font-size: 2em;
     border: none;
-    padding: 15px 30px;
+    padding: 0px 30px 14px 30px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 1);
     border-radius: 8px;
     text-align: center;
     font-weight: 600;
@@ -66,6 +91,5 @@ h1{
     color: tomato;
     background-color: white;
     font-size: 4em;
-    font-variant: small-caps;
     font-weight: 800;
 }

@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Prueba de Randomator</title>        
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="jquery.randomator.js"></script>
-		<link rel="stylesheet" href="estilito.css" />
+      <meta charset="utf-8">
+      <title>Prueba de Randomator</title>        
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="jquery.randomator.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- BOOTSTRAP -->
+      <link rel="stylesheet" type="text/css" href="cositas/fuentes/stylesheet-cheesepizza.css"/> 
+      <!-- CHEESE PIZZA -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- BOOTSTRAP -->
+		  <link rel="stylesheet" href="estilito.css" />
     </head>
+
     <body>
-       <div id="contenedorsito">
+       <div id="contenedorsito" class="container">
+        <div class="row">
+
+          <div class="col-md-12">
+                    
+            <h1>Quien baja a abrirle al del delivery?</h1>
+            <p></p>
         
-        <h1>¿Quién va a abrirle al del delivery?</h1>
+            <ul id="listita">
+              <li><input type="text" class="opcion" value="Marta"></li>
+              <li><input type="text" class="opcion" value="Carlos"></li>
+              <li><input type="text" class="opcion" value="Luis"></li>
+              <li><input type="text" class="opcion" value="Bocha"></li>
+              <li><input type="text" class="opcion" value="Silvia"></li>
+            </ul>
+       
+            <button id="randomChampion">RANDOM CHAMPION</button>
+       
+            <div id="portaganador">
+           
+              <p id="ganador"></p>
+           
+            </div>
         
-        <ul id="listita">
-            <li><input type="text" class="opcion" value="opción 1"></li>
-            <li><input type="text" class="opcion" value="opción 2"></li>
-            <li><input type="text" class="opcion" value="opción 3"></li>
-            <li><input type="text" class="opcion" value="opción 4"></li>
-            <li><input type="text" class="opcion" value="opción 5"></li>
-       </ul>
-       
-       <button id="randomChampion">RANDOM CHAMPION</button>
-       
-       <div id="portaganador">
-           
-           <p id="ganador"></p>
-           
-       </div>
-       
        
         <script>
             
@@ -37,7 +48,10 @@
             //Se puede agregar cualquier cantidad de inputs con la clase "opcion" y el plug in los incluye en el randomizador.
             
         </script>
+
+          </div>
         </div>
+      </div>
     </body>
 </html>
 
